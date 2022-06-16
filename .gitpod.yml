@@ -2,7 +2,7 @@
 tasks:
   - name: start GUI
     init: echo 'init script' # runs during prebuild
-    before: gp sync-wait multispace
+    before: gp sync-await multispace
     command: |
       cd react-flask-app
       npm install
