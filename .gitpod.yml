@@ -1,6 +1,8 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name : Start GUI
+  - name: start GUI
+    init: echo 'init script' # runs during prebuild
+    before: gp async-wait multispace
     command: |
       cd react-flask-app
       npm install
