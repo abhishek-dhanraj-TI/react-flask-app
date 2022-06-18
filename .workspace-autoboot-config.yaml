@@ -1,6 +1,6 @@
 ExecConfig:
   Environment:
-    API_URL: ${API.Host}/${API.TimeEndpoint.Path}
+    API_URL: ${API.TimeEndpoint.Host}/${API.TimeEndpoint.Path}
     RANDOM_ENV: Devspace
 Endpoints:
   GuiEndpoint:
