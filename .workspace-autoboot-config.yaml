@@ -1,14 +1,14 @@
-ExecConfig:
-  Environment:
+execConfig:
+  environment:
     API_URL: ${API.TimeEndpoint.Host}/${API.TimeEndpoint.Path}
     RANDOM_ENV: Devspace
-Endpoints:
+endpoints:
   GuiEndpoint:
-    Port: 3000
-    Protocol: HTTPS
-    Path: 
-DependsOn:
+    port: 3000
+    protocol: HTTPS
+    path: 
+dependsOn:
   API:
-    Type: DEVSPACES::REPO::GIT
-    Properties:
-      RepoUrl: https://github.com/abhishek-dhanraj-TI/react-flask-api
+    type: DEVSPACES::REPO::GIT
+    properties:
+      repoUrl: https://github.com/abhishek-dhanraj-TI/react-flask-api
