@@ -6,7 +6,7 @@ endpoints:
   GuiEndpoint:
     port: 3000
     protocol: HTTPS
-    path: 
+    path: ''
 dependsOn:
   API:
     type: DEVSPACES::REPO::GIT
