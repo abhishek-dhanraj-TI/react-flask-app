@@ -1,6 +1,6 @@
 vscode:
   extensions:
-    - https://github.com/yogesh-ti/web-extension/raw/main/devspacesplus-0.0.1.vsix
+    - TI.devspacesplus
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
