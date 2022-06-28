@@ -4,8 +4,9 @@ import './App.css';
 
 function App() {
   const [currentTime, setCurrentTime] = useState(0);
+  const API_URL = process.env.REACT_APP_API_URL;
   useEffect(() => {
-    fetch('https://5000-aquamarine-leopon-mmjbfavb.ws.trilogy.devspaces.com/time').then(res => res.json()).then(data => {
+    fetch(API_URL).then(res => res.json()).then(data => {
       setCurrentTime(data.time);
     });
   });
