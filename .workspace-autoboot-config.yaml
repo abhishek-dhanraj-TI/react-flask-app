@@ -1,8 +1,8 @@
 name: React Flask App
 execConfig:
   environment:
-    API_URL: ${API.TimeEndpoint.devspaceHost}/${API.TimeEndpoint.path}
-    RANDOM_ENV: Devspace
+    REACT_APP_API_URL: ${API.TimeEndpoint.devspaceHost}/${API.TimeEndpoint.path}
+    REACT_APP_RANDOM_ENV: Devspace
 endpoints:
   GuiEndpoint:
     port: 3000
