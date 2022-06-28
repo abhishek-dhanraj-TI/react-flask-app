@@ -6,7 +6,7 @@ vscode:
 tasks:
   - name: start GUI
     init: echo 'init script' # runs during prebuild
-    before: gp sync-await multispace
+    before: gp sync-await multispace && source ~/.bashrc
     command: |
       cd react-flask-app
       npm install
