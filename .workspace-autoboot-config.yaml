@@ -1,3 +1,4 @@
+name: React Flask App
 execConfig:
   environment:
     API_URL: ${API.TimeEndpoint.host}/${API.TimeEndpoint.path}
