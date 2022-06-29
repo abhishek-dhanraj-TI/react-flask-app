@@ -1,4 +1,9 @@
 name: React Flask App
+parameters:
+  UsernamePrefix:
+    description: Prefix to use for username
+    type: string
+    default: devsplacePlus
 execConfig:
   environment:
     REACT_APP_API_URL: ${API.TimeEndpoint.devspaceHost}/${API.TimeEndpoint.path}
