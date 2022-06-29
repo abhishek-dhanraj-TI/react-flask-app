@@ -1,3 +1,4 @@
+name: 'React App'
 execConfig:
   environment:
     API_URL: ${API.TimeEndpoint.Host}/${API.TimeEndpoint.Path}
