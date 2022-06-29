@@ -1,7 +1,7 @@
 name: React Flask App
 execConfig:
   environment:
-    REACT_APP_API_URL: ${API.TimeEndpoint.devspaceHost}/${API.TimeEndpoint.path}
+    REACT_APP_API_URL: ${API1.TimeEndpoint.devspaceHost}/${API1.TimeEndpoint.path}
     REACT_APP_RANDOM_ENV: Devspace
 endpoints:
   GuiEndpoint:
@@ -9,7 +9,7 @@ endpoints:
     protocol: HTTPS
     path: ''
 dependsOn:
-  API:
+  API1:
     type: DEVSPACES::REPO::GIT
     properties:
-      repoUrl: https://github.com/abhishek-dhanraj-TI/react-flask-api/tree/ui-api-db
+      repoUrl: https://github.com/abhishek-dhanraj-TI/react-flask-api/tree/ui-api-api-1
