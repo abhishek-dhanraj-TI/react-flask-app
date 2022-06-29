@@ -12,4 +12,4 @@ dependsOn:
   API:
     type: DEVSPACES::REPO::GIT
     properties:
-      repoUrl: https://github.com/abhishek-dhanraj-TI/react-flask-api
+      repoUrl: https://github.com/abhishek-dhanraj-TI/react-flask-api/tree/ui-api-db
