@@ -1,4 +1,9 @@
 name: 'React App'
+parameters:
+  UsernamePrefix:
+    description: Prefix to use for username
+    type: string
+    default: devsplacePlus
 execConfig:
   environment:
     API_URL: ${API.TimeEndpoint.Host}/${API.TimeEndpoint.Path}
