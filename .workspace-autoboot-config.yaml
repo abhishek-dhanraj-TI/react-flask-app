@@ -6,7 +6,7 @@ parameters:
     default: devsplacePlus
 execConfig:
   environment:
-    REACT_APP_API_URL: ${API.TimeEndpoint.devspaceHost}/${API.TimeEndpoint.path}
+    REACT_APP_API_URL: ${API.endpoints.TimeEndpoint.devspaceHost}/${API.endpoints.TimeEndpoint.path}
     REACT_APP_RANDOM_ENV: Devspace
 endpoints:
   GuiEndpoint:
